@@ -8,8 +8,8 @@ body{
 img.panf{
   position:absolute;
   top:0px;
-  right:0px;
-  width:750px;
+  left:1000px;
+  height:900px;
 }
 
 footer{

@@ -33,28 +33,29 @@ h1{
   font-size:40px;
 }
 
-canvas{
+canvas.circle{
   position:absolute;
-  opacity:0.9;
-  left:70px;
+  top:50px;
+  left:100px;
+  z-index:3;
 }
 
 a.ask{
   position:absolute;
-  font-size:60px;
-  top:200px;
-  left:220px;
-  color:#000000;
-  z-index:7;
+  font-size:45px;
+  top:230px;
+  left:370px;
+  color:#FFFFFF;
+  z-index:4;
 }
 
 a.video{
   position:absolute;
-  font-size:60px;
-  top:500px;
-  left:270px;
-  color:#000000;
-  z-index:7;
+  font-size:50px;
+  top:200px;
+  left:1300px;
+  color:#FFFFFF;
+  z-index:4;
 }
 
 img.fes{

@@ -15,8 +15,10 @@ img.panf{
 img.pics{
   position:relative;
   border:1px #FFFFFF solid;
-  left:100px;
-  top:100px;
+  left:500px;
+  top:50px;
+  width:50%;
+  height:50%;
 }
 
 footer{
@@ -37,20 +39,31 @@ img.fes{
   height:100%;
 }
 
-img:mypic{
+button.left{
   position:absolute;
-  top:200px;
-  left:50px;
+  color:#FFFFFF;
+  font-size:50px;
+  top:400px;
+  left:350px;
 }
+
+button.right{
+  position:absolute;
+  color:#FFFFFF;
+  font-size:50px;
+  top:400px;
+  left:1400px;
+}
+
 a.gallery{
   font-size:25px;
 }
 
 h2{
   position:absolute;
+  top:400px;
   left:-100px;
   font-size:15px;
-  top:200;
   transform:rotate(90deg);
   color:#FFFFFF;
 }
