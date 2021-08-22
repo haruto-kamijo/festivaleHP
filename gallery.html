@@ -7,25 +7,21 @@
     <link rel="stylesheet" href="css/gallery.css">
     <script type="text/javascript" src="js/gallery.js"></script>
   </head>
-  <body onload="slideshow()">
-    <header>
-  <a href="index.html"><img class="fes" src="pics/fes.png"></a> 
-    </header>
+  <body onload="draw()">
     <main>
+      <a href="index.html"><img class="feslogo" src="pics/feslogo.png"></a>
+      <canvas id='back' width="2000" height="1000">代替テキスト</canvas>
       <img class="pics" id="mypic" src="pics/1.jpg" width="600" height="450">
-      <button class="left" type="button" onclick="leftbutton()">　</button>
-      <button class="right" type="button" onclick="rightbutton()">　</button>
+      <button class="left" type="button" onclick="leftbutton()">◁</button>
+      <button class="right" type="button" onclick="rightbutton()">▷</button>
       <h2>
         Festivale Executive Committee.org
       </h2>
     </main>
     <footer>
       <a class="top" href="index.html">TOP</a>
-      <dev>/</dev>
-      <a href="form.html">CONTACT</a>
-      <dev>/</dev>
-      <a href="sponsor.html">SPONSORED</a>
-      <dev>/</dev>
+      <a class="form" href="form.html">CONTACT</a>
+      <a class="sponsor" href="sponsor.html">SPONSORED</a>
       <a class="gallery" href="gallery.html">GALLERY</a>
     </footer>
     <!-- The core Firebase JS SDK is always required and must be listed first -->

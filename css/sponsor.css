@@ -1,87 +1,168 @@
 body{
   position:relative;
-  background-color:#000000;
+  background-color:rgba(240,255,240,0.3);
   width:1600px;
   height:900px;
 }
 
-img.panf{
-  position:absolute;
-  top:0px;
-  right:0px;
-  width:750px;
+footer{
+  position:fixed;
+  bottom:210px;
+  right:50px;
+  color:#000000;
+  font-family:serif;
+  font-size:30px;
+  z-index:3;
 }
 
-footer{
+a.top{
   position:absolute;
-  bottom:10px;
-  left:150px;
-  color:#FFFFFF;
+  right:800px;
 }
+
+a.form{
+  position:absolute;
+  right:600px;
+}
+
+a.sponsor{
+  position:absolute;
+  right:350px;
+}
+
+a.gallery{
+  position:absolute;
+  right:150px;
+}
+
+a{
+  text-decoration:none;
+}
+
 a:link{
-  color:#FFFFFF;
+  color:#505050;
 }
 a:visited{
-  color:#AFAFAF;
+  color:#000000;
 }
 
-div{
-  position:relative;
+div.guildlogo{
+  position:fixed;
+  right:800px;
+  top:0px;
+}
+
+div.suzukilogo{
+  position:fixed;
+  right:800px;
+  top:250px;
+}
+
+div.resmilelogo{
+  position:fixed;
+  right:800px;
+  top:500px;
+}
+
+div.resmile2logo{
+  position:fixed;
+  right:550px;
+  top:0px;
+}
+div.resmile3logo{
+  position:fixed;
+  right:550px;
+  top:250px;
+}
+div.resmile4logo{
+  position:fixed;
+  right:550px;
+  top:500px;
+}
+div.resmile5logo{
+  position:fixed;
+  right:300px;
+  top:0px;
+}
+div.resmile6logo{
+  position:fixed;
+  right:300px;
+  top:250px;
+}
+div.resmile7logo{
+  position:fixed;
+  right:300px;
+  top:500px;
+}
+
+canvas:back{
+  position:fixed;
+  left:0px;
+  top:0px;
+  opacity:0.9;
+  z-index:1;
 }
 
 canvas:circle1{
-  position:relative;
+  position:absolute;
   opacity:0.9;
   left:50px;
+  z-index:5;
 }
 
 canvas:circle2{
-  position:relative;
+  position:absolute;
   opacity:0.9;
   left:50px;
+  z-index:5;
 }
 
 canvas:circle3{
-  position:relative;
+  position:absolute;
   opacity:0.9;
   left:50px;
+  z-index:5;
 }
 
-img.fes{
-  width:300px;
-  height:100%;
-}
 img.guild{
   position:absolute;
   width:130px;
   height:130px;
   left:30px;
-  top:150px;
+  top:35px;
+  z-index:6;
 }
 
 img.suzuki{
   position:absolute;
   width:130px;
-  height:100px;
-  left:30px;
-  top:380px;
+  height:70px;
+  left:35px;
+  top:60px;
+  z-index:6;
 }
 img.resmile{
   position:absolute;
   width:130px;
-  height:110px;
-  left:30px;
-  top:600px;
+  height:90px;
+  left:35px;
+  top:50px;
+  z-index:6;
 }
 
-a.sponsor{
-  font-size:25px;
+img.feslogo{
+  position:fixed;
+  top:10px;
+  left:50px;
+  width:250px;
+  height:180px;
+  z-index:2;
 }
 
-h2{
-  position:absolute;
-  left:-100px;
+h1{
+  position:fixed;
+  right:50px;
+  bottom:30px;
   font-size:15px;
-  transform:rotate(90deg);
-  color:#FFFFFF;
+  color:#000000;
 }
